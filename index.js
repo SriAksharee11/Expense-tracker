@@ -64,9 +64,9 @@ app.post('/expenses', async(req, res) => {
   res.send(updateObject);
 
 })
-const port=process.env.PORT || 8000
+const port1=process.env.PORT || 8000
 
-app.listen(port, () => {
+app.listen(port1, () => {
   console.log(`Example app listening on port ${port}`)
 })
 
